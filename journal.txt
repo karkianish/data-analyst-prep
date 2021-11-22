@@ -1,0 +1,11 @@
+Date: 11/22/2021
+
+-completed Set up zoom
+-Completed set up of Slack
+-Completed set up of GitHub repo
+
+	-Added new SHH Key
+	-Made first commit
+
+
+
