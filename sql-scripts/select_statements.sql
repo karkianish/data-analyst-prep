@@ -41,4 +41,25 @@ fetch next 3 rows only;
 select newid() 
 
 
+--- String Functions ---
+/*
+ASCII - very rarely
+char - sometimes
+charindex - sometimes
+concat/concat with + - almost everyday
+concat with sepeartor - very often
+format - sometimes
+substring - very often 
+left, right, len, lower, upper, trim, ltrim, rtrim - almost everyday
+replace, replicate, reverse - sometimes
+*/
+
+/*
+datefromparts, timefromparts, datepart, day, month, year, 
+getdate, current_timestamp, datediff, dateadd, eomonth, format
+diff between date and utc date?
+
+
+*/
+
 
