@@ -30,10 +30,15 @@ FROM HumanResources.Department
 ORDER BY ID;
 
 
-
 SELECT DepartmentID AS ID, Name AS 'Department Name'
 FROM HumanResources.Department AS hr_department
 ORDER BY ID
 offset 3 rows
 fetch next 3 rows only;
+
+
+-- guid (global unique identifier)
+select newid() 
+
+
 
