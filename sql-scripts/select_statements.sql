@@ -134,3 +134,22 @@ and CHARINDEX(sod.CarrierTrackingNumber, 'abc') <> 0
 select * from Sales.SalesOrderHeader where SalesOrderID = '43659'
 
 
+-----------------------------------------------------------------------------------------------
+
+
+
+--WHERE CLAUSE
+
+SELECT top 10 *
+FROM Person.Address;
+
+
+SELECT top 10 *
+FROM Person.Address
+WHERE City like '%mon%';
+
+
+SELECT top 10 *
+FROM Person.Address
+WHERE City like '%oe';
+
